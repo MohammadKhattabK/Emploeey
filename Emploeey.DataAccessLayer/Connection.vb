@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Connection
-    Private Const ConnectionString As String = "Data Source=MOHAMMADKHATTA\SQLEXPRESS;Initial Catalog=DemoEmpDB;Integrated Security=True; Timeout=30"
+    Private Const ConnectionString As String = "Data Source=\;Initial Catalog=DemoEmpDB;Integrated Security=True; Timeout=30"
 
     Private connection As SqlConnection
 
